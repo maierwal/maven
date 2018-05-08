@@ -13,7 +13,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        
+		<plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+		</plugin>
         <configuration>
           <archive>
             <manifest>
