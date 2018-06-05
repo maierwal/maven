@@ -7,6 +7,7 @@ import de.hs_furtwangen.informatik.meldeauskunft.domain.Resident;
 /**
  * @author Stefan Betermieux
  */
+// Comment
 public interface ResidentService {
 
   Resident getUniqueResident(Resident filterResident) throws ResidentServiceException;
