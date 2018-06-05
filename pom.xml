@@ -10,17 +10,18 @@
   
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-		<plugin>
+	  <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
 		</plugin>
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+		
         <configuration>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>de.walter.maven</mainClass>
+              <mainClass>de.hsfurtwangen.informatik.meldeauskunft</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -37,7 +38,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
 	
